@@ -107,6 +107,22 @@ footer {
     background-color: rgb(233, 233, 233);
 }
 
+.t-cont {
+    grid-column: 5/23;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.t-text {
+    grid-column: 1/10;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.t-text h5 {
+    font-weight: bold;
+}
+
 .right-bar {
     display: block;
     grid-column: 1/3;
