@@ -31,6 +31,10 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(5);
     }
+
+    .inf-text {
+        margin-top: 2em;
+    }
 }
 
 @media (max-width: 720px) {
@@ -43,6 +47,8 @@
     .cart {
         margin-inline: 0;
     }
+
+
 }
 
 footer {
@@ -141,4 +147,3 @@ footer {
 .inf-text {
     grid-row: 3/6;
 }
-
