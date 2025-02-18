@@ -4,7 +4,25 @@
     position: relative;
 }
 
+.inf-img {
+    grid-column: 1/25;
+    grid-row: 1/3;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
 .img video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    display: flex;
+}
+
+.inf-img video {
     height: 70vh;
     width: 100%;
     position: absolute;
