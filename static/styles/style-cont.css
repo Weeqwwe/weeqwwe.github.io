@@ -80,7 +80,7 @@ footer {
 .inf-all {
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(6, 1fr) 0.5fr;
+    grid-template-rows: 1fr 0.2fr repeat(2, 1fr) 0.4fr;
     background-color: rgb(233, 233, 233);
 }
 
