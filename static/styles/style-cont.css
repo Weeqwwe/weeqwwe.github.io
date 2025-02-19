@@ -119,7 +119,8 @@ footer {
     text-align: center;
 }
 
-.t-text h5 {
+.t-text h5,
+.t-text h6 {
     font-weight: bold;
 }
 
