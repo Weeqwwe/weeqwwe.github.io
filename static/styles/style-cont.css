@@ -48,7 +48,40 @@
         margin-inline: 0;
     }
 
+    .adv {
+        width: 100%;
+    }
 
+    .ads {
+        width: 100%;
+    }
+
+    .adc {
+        width: 100%;
+    }
+
+    .ade {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 720px) {
+    .adv {
+        width: 40%;
+    }
+
+    .ads {
+        width: 80%;
+    }
+
+    .adc {
+        width: 50%;
+    }
+
+    .ade {
+        width: 70%;
+    }
 }
 
 footer {
